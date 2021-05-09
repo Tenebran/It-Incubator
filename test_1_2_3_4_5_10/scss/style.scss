@@ -1,0 +1,28 @@
+@import './reset';
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+
+  &__button {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  &__input {
+    margin: 0 10px 0 0;
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-size: 25px;
+    padding: 20px;
+  }
+}
